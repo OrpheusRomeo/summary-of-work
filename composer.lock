@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6558f74828bca9ebecac73d90cea4b1a",
+    "content-hash": "710dafb06471ac71225a499678af49ae",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1463,6 +1463,49 @@
                 "serialize"
             ],
             "time": "2020-06-07T11:41:29+00:00"
+        },
+        {
+            "name": "orpheusromeo/common-utils-sdk",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/OrpheusRomeo/common-utils-sdk.git",
+                "reference": "8fca80514c38f648e2547667e113c09cccb6f541"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/OrpheusRomeo/common-utils-sdk/zipball/8fca80514c38f648e2547667e113c09cccb6f541",
+                "reference": "8fca80514c38f648e2547667e113c09cccb6f541",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "AutoTest\\": "./src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PeterRomeoOrpheus",
+                    "email": "1024245303@qq.com"
+                }
+            ],
+            "description": "php常用方法类库",
+            "homepage": "https://github.com/OrpheusRomeo/common-utils-sdk",
+            "time": "2020-06-29T07:22:49+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -6331,7 +6374,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "orpheusromeo/common-utils-sdk": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
